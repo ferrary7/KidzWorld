@@ -133,4 +133,5 @@ cartButton.onclick = () => {
   bill+="\n The total amount is "+finalDollars+"$ and "+finalCents+" cents";
 
     console.log(bill);
+    window.open( `https://wa.me/+919000000000/?text=Order detials: ${bill}`, '_blank');
 };
